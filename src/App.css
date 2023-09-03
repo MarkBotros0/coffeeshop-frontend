@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #f0f0f0;
+}
+
+.content {
+  flex: 1;
+}
+
+.drawer {
+  width: 340px;
+  flex-shrink: 0;
+  background-color: white;
+  position: fixed;
+  top: 80px;
+  right: 10px;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.myCard {
+  background-color: #fff;
+  border-radius: 20px;
+}
